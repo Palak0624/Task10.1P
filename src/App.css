@@ -1,0 +1,22 @@
+/* App.css */
+
+/* Styles for the row layout (horizontal) */
+.row {
+  display: flex;
+  justify-content: space-around;  /* Distribute the items evenly */
+  flex-wrap: wrap;                /* Allow items to wrap on small screens */
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1 1 30%;                  /* Take up 30% of the row with some flexibility */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* For responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;               /* Make each column take full width on smaller screens */
+  }
+}

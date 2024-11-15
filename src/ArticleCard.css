@@ -1,0 +1,37 @@
+/* ArticleCard.css */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .card-meta {
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .author {
+    font-size: 12px;
+    color: #777;
+  }
+
+  
